@@ -1,32 +1,40 @@
-*{padding:0px;
+*
+{
+    padding:0px;
     margin:0px;
 
 }
-.outer{
+.outer
+{
     width:700px;
     height:800px;
     
     margin: 0px auto;
 }
-.outer h1{
+.outer h1
+{
     text-align:center;
 
 }
-p{
+p
+{
     font-size: 20px;
 }
-.border{
+.border
+{
     width: 100%;
     padding: 5px;
     background-color:cadetblue ;
     border:1px solid black;
     font-weight: bold;
 }
-ul{
+ul
+{
     font-size: 20px;
     margin-left: 50px;
 }
-button{
+button
+{
     font-size: 25px;
     padding: 10px 20px;
     margin: 50px 0 50px 140px;
@@ -39,7 +47,8 @@ button{
     cursor: pointer;
     transition: .5s;
 }
-button:hover{
+button:hover
+{
     background-color: black;
     box-shadow: 0 0 30px rgba(0,0,0,.5);
 }
