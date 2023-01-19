@@ -26,3 +26,20 @@ ul{
     font-size: 20px;
     margin-left: 50px;
 }
+button{
+    font-size: 25px;
+    padding: 10px 20px;
+    margin: 50px 0 50px 140px;
+    background-color: rgb(70, 70, 209);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    transition: .5s;
+}
+button:hover{
+    background-color: black;
+    box-shadow: 0 0 30px rgba(0,0,0,.5);
+}
